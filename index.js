@@ -61,9 +61,9 @@ global.totalreq = 0;
 
 // Settings
 const settings = {
-  creatorName: "alip ai",
+  creatorName: "Alip Clutch",
   whatsappLink: "https://wa.me/6281249703469",
-  apiTitle: "alip ai api",
+  apiTitle: "ALIP CLUTCH",
   githubLink: "https://whatsapp.com/channel/0029VbAnsaJFMqrTf5IwPJ3X",
   instagramLink: "https://whatsapp.com/channel/0029VbAnsaJFMqrTf5IwPJ3X"
 };
