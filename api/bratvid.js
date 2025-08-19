@@ -15,7 +15,10 @@ module.exports = {
         return res.json({ status: false, error: 'Text parameter is required' });
       }
 
-      const buffer = await getBuffer(`https://fastrestapis.fasturl.cloud/maker/brat/animated?text=${encodeURIComponent(text)}&mode=animated`);
+      const encodedText = encodeURIComponent(text);
+      const buffer = await getBuffer(
+        `https://brat.siputzx.my.id/gif?text=${encodedText}&background=%23ffffff&color=%23000000&emojiStyle=apple&delay=500&endDelay=1000&width=352&height=352`
+      );
 
       res.writeHead(200, {
         'Content-Type': 'image/gif',
