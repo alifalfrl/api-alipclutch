@@ -12,7 +12,7 @@ module.exports = {
 
     const encodedText = encodeURIComponent(text);
     const buffer = await getBuffer(
-      `https://brat.siputzx.my.id/image?text=${encodedText}&background=%23ffffff&color=%23000000&emojiStyle=apple`
+      `https://api.zenzxz.my.id/maker/brat?text=${encodedText}&background=%23ffffff&color=%23000000&emojiStyle=apple`
     );
 
     res.writeHead(200, {
