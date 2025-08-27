@@ -17,7 +17,7 @@ module.exports = {
 
       const encodedText = encodeURIComponent(text);
       const buffer = await getBuffer(
-        `https://brat.siputzx.my.id/gif?text=${encodedText}&background=%23ffffff&color=%23000000&emojiStyle=apple&delay=500&endDelay=1000&width=352&height=352`
+        `https://api.zenzxz.my.id/maker/bratvid?text=${encodedText}`
       );
 
       res.writeHead(200, {
