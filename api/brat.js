@@ -2,7 +2,7 @@ module.exports = {
   name: "Brat",
   desc: "Brat text generator",
   category: "Imagecreator",
-  path: "/imagecreator/bratv?apikey=&text=",
+  path: "/imagecreator/brat?apikey=&text=",
   async run(req, res) {
     const { apikey, text } = req.query;
     if (!global.apikey.includes(apikey)) 
@@ -12,7 +12,7 @@ module.exports = {
 
     const encodedText = encodeURIComponent(text);
     const buffer = await getBuffer(
-      `https://api.zenzxz.my.id/maker/brat?text=${encodedText}&background=%23ffffff&color=%23000000&emojiStyle=apple`
+      `https://brat.siputzx.my.id/image?text=${encodedText}&background=%23ffffff&color=%23000000&emojiStyle=apple`
     );
 
     res.writeHead(200, {
