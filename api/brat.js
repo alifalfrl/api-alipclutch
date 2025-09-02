@@ -12,9 +12,9 @@ module.exports = {
 
     const encodedText = encodeURIComponent(text);
 
-    // GANTI API DISINI
+    // API BARU
     const buffer = await getBuffer(
-      `https://brat.siputzx.my.id/image?text=${encodedText}&background=%23ffffff&color=%23000000&emojiStyle=apple`
+      `https://aqul-brat.hf.space/?text=${encodedText}`
     );
 
     res.writeHead(200, {
