@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node --no-deprecation index.js"
   },
-  "author": "Skyzopedia",
+  "author": "ALIP",
   "license": "MIT",
   "dependencies": {
     "@google/generative-ai": "^0.24.0",
